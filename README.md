@@ -7,35 +7,35 @@ A simple Flask  application for managing tasks.
 ## Installation
 
 1. Clone the repository:
-https://github.com/Mohan8474/Todo.git
+    https://github.com/Mohan8474/Todo.git
 
 
 2. Navigate to the project directory:
 
-cd Todo
+    cd Todo
 
 
 3. Create a virtual environment and activate it:
 
-python -m venv venv
-source venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate
 
 
 4. Install the dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Usage
 
 1. Load the intial data
 
-python3 bin/load_initial_data.py
+    python3 bin/load_initial_data.py
 
 2. Run the application
 
-flask run 
-or
-run the run.py file
+    flask run 
+    or
+    run the run.py file
 
 3. Access the API Endpoints
 
@@ -44,7 +44,7 @@ run the run.py file
    - Use the following base URL to access the API endpoints:
 
      ```
-     http://localhost:5000/tasks
+     http://127.0.0.1:5000/tasks
      ```
 
    - Endpoint 1: `/tasks`
