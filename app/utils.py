@@ -1,5 +1,3 @@
-
-
 def task_to_dict(task):
     return {
         "id": task.id,
