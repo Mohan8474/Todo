@@ -6,10 +6,9 @@ from flask import request, Blueprint, url_for
 from sqlalchemy import desc
 from sqlalchemy.exc import SQLAlchemyError
 
-#Custom imports
+# Custom imports
 from app import app, db, utils
 from app.models import Task
-
 
 
 task_api = Blueprint("task_api", __name__, url_prefix="/tasks")
