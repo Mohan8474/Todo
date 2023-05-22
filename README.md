@@ -18,6 +18,7 @@ A simple Flask  application for managing tasks.
 3. Create a virtual environment and activate it:
 
     python -m venv venv
+    
     source venv/bin/activate
 
 
